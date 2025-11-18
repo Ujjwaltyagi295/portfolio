@@ -1,13 +1,13 @@
 {
   "name": "portfolio",
- 
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "vercel --prod"
   },
   "dependencies": {
     "@react-three/drei": "^9.105.4",
@@ -29,7 +29,8 @@
     "tailwind-merge": "^2.2.2",
     "tailwindcss-animate": "^1.0.7",
     "three": "^0.163.0",
-    "three-globe": "^2.31.0"
+    "three-globe": "^2.31.0",
+    "vercel": "^48.10.3"
   },
   "devDependencies": {
     "@types/node": "^20",
